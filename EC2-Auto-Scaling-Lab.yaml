@@ -11,7 +11,7 @@ Resources:
         - IpProtocol: tcp
           FromPort: '80'
           ToPort: '80'
-          CidrIp: 163.47.68.41/32
+          CidrIp: ["163.47.68.41/32","163.47.68.42/32"]
       Tags:
         - Key: Name
           Value: !Sub ${AWS::StackName} - Web Host Security Group
