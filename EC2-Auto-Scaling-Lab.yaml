@@ -30,7 +30,7 @@ Resources:
           AssociatePublicIpAddress: 'true'
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
-          SubnetId: !Ref PublicSubnet
+          SubnetId: subnet-0db436e9cfec0fed8
       UserData: 
         Fn::Base64: !Sub 
           - |
